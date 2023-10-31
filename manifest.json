@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Asana tweaks for Rev79",
+    "version": "1.1",
+
+    "description": "Change the rendering of Asana board cards to add colour based on task names.",
+
+    "content_scripts": [{
+        "matches": ["*://app.asana.com/*"],
+        "js": ["rev79-asana.js"]
+    }],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "asana@rev79.app"
+        }
+    }
+
+}
