@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Asana tweaks for Rev79",
-    "version": "1.1",
+    "version": "1.2",
 
     "description": "Change the rendering of Asana board cards to add colour based on task names.",
 

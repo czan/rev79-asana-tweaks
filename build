@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+zip -r -FS asana-rev79.zip manifest.json rev79-asana.js
+echo 'Wrote result to: asana-rev79.zip'
+echo 'Upload to addons.mozilla.org to get signed.'
